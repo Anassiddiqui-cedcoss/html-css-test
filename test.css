@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.parent{
+    width: 100%;
+    height: 100vh;
+}
+.header{ 
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    background-color:rgb(235, 232, 232);
+}
+.headerleft{
+    float: left;
+    width: 50%;
+    height: 40vh;
+    text-align: justify;
+    background-color:rgb(235, 232, 232);
+    display: flex;
+    justify-content: center;
+}
+.lefttext{
+    width: 60%;
+    height:fit-content;
+}
+.btn{
+    width: 30%;
+    height: 10%;
+    background-color:orange;
+    color:white;
+}
+.headerright{
+    height: 40vh;
+    width: 50%;
+    float: right;
+    background-color:rgb(235, 232, 232);
+  
+}
+.footer{
+    display: flex;
+    align-content: center;
+    flex-flow: column;
+    justify-content:space-around;
+   
+   
+    width: 100%;
+    height: 50vh;
+ 
+}
+.h1{
+    width: 100%;
+    height: 10%;
+}
+.containers{
+    width: 100%;
+    margin-top: 3%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container1{
+    width: 20%;
+    height: 80%;
+   
+   
+}
+.para{
+    width: 50%;
+    height: 9%;
+    margin-left:7% ;
+    margin-top:5% ;
+    
+
+}
+.uppercontainerleft{
+    width: 100%;
+    height:50% ;
+    border: 1px solid purple;
+    background-color: rgb(29, 27, 27);
+}
+.downcontainerleft{
+    
+
+}
+.container2{
+    width: 20%;
+    height: 80%;
+    
+}
+
+
+.uppercontainercenter{
+    width: 100%;
+    height:50% ;
+    border: 1px solid purple;
+    background-color: rgb(29, 27, 27);
+}
+
+.downcontainercenter{}
+.container3{
+    width: 20%;
+    height: 80%;
+    
+}
+
+.uppercontainerright{
+    width: 100%;
+    height:50% ;
+    border: 1px solid purple;
+    background-color: rgb(29, 27, 27);
+}
+
+.downcontainerright{}
+
+@media only screen and (max-width:300px){
+    .lefttext{
+        font-size: 0.2rem;
+    }
+}
+@media only screen and (max-width:800px){
+    .lefttext{
+        font-size: 0.5rem;
+    }
+}
+@media only screen and (max-width:1034px){
+    .header{
+        height: 40vh;
+    }
+    .lefttext{
+        font-size: 0.5rem;
+    }
+}
